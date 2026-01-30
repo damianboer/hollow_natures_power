@@ -3,15 +3,13 @@ package com.hollow.components
 import com.hypixel.hytale.codec.builder.BuilderCodec
 import com.hypixel.hytale.codec.builder.BuilderField
 import com.hypixel.hytale.codec.validation.Validators
-import com.hypixel.hytale.component.Component
-import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore
 import com.walrusking.wklib.components.WKBlockComponent
 
 class FungiEnergizer(
     var currentEnergy: Double, var maxEnergy: Double, var fungiTier: Int,
 ): WKBlockComponent<FungiEnergizer>("hollow:fungi_energizer_component") {
 
-    override fun clone(): Component<ChunkStore> {
+    override fun clone(): FungiEnergizer {
         return FungiEnergizer(currentEnergy, maxEnergy, fungiTier)
     }
 
