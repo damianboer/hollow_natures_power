@@ -1,1 +1,8 @@
-rootProject.name = 'hytale_hollow'
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "hollow_natures_power"

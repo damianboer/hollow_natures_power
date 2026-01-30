@@ -1,0 +1,23 @@
+{
+  "Group": "Boz",
+  "Name": "Hollow: Natures Power",
+  "Version": "1.0.0",
+  "Description": "",
+  "Main": "com.hollow.Main",
+  "Authors": [
+    {
+      "Name": "",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Walrusking:WKLib": ">=1.0"
+  },
+  "OptionalDependencies": {
+
+  },
+  "IncludesAssetPack": true,
+  "DisabledByDefault": false
+}
